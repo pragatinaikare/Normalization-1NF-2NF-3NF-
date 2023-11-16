@@ -23,7 +23,7 @@ Gold status customers; BronzeStatusFreeShipping applies to all online purchases 
 ● Items in each transaction are listed in no particular order.<br>
 ● A customer’s name and status do not depend on the time of the transaction (i.e. these fields are the same across all transactions for each customer).<br>
 
-
+<br>
 Below is a data dictionary containing a description of each field.<br>
 ● TransactionDate - Date and time when the transaction took place.<br>
 ● CustomerID - ID that uniquely identifies the customer.<br>
