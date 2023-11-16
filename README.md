@@ -12,26 +12,26 @@ TransactionDate	CustomerID	OrderType	CustomerName	CustomerStatus	StoreCredit	Ite
 2023-09-10 16:45:00	1001	Online	Juan Johnson	Gold	$40	RunningShoes($100)	FitnessTracker ($80)		GoldStatusFreeShipping
 2023-09-12 11:30:00	1002	In-store	Ahmed Al-Masri	Silver	$25	Home TheaterSystem ($700)			
 
-
+<br>
 Let’s name this table Transactions. It has the composite primary key (TransactionDate+CustomerID), such that both fields are needed to uniquely identify each row. Here are some
 additional details about this retailer:<br>
 ● Each item is characterized by the type of item (e.g. Smartphone) and price (e.g. $800). These represent two different pieces of information about each item.<br>
 ● Customers making qualifying purchases are eligible for promotions. All promotions are completely based on order type, customer status, and items purchased. For
 example, GoldStatusFreeShipping promotion applies to all Gold status customers making online purchases; GoldStatus10Off promotion applies to all in-store purchases by
-Gold status customers; BronzeStatusFreeShipping applies to all online purchases made on by Bronze status customers purchasing 3 items.
-● Items in each transaction are listed in no particular order.
-● A customer’s name and status do not depend on the time of the transaction (i.e. these fields are the same across all transactions for each customer).
+Gold status customers; BronzeStatusFreeShipping applies to all online purchases made on by Bronze status customers purchasing 3 items.<br>
+● Items in each transaction are listed in no particular order.<br>
+● A customer’s name and status do not depend on the time of the transaction (i.e. these fields are the same across all transactions for each customer).<br>
 
 
-Below is a data dictionary containing a description of each field.
-● TransactionDate - Date and time when the transaction took place.
-● CustomerID - ID that uniquely identifies the customer.
-● OrderType - Indicates whether the order was made in-store or online.
-● CustomerName - Name of the customer.
-● CustomerStatus - Status of the customer. Can be either Bronze, Silver, or Gold.
-● StoreCredit - Store credit available to the customer at the time of the transaction.
+Below is a data dictionary containing a description of each field.<br>
+● TransactionDate - Date and time when the transaction took place.<br>
+● CustomerID - ID that uniquely identifies the customer.<br>
+● OrderType - Indicates whether the order was made in-store or online.<br>
+● CustomerName - Name of the customer.<br>
+● CustomerStatus - Status of the customer. Can be either Bronze, Silver, or Gold.<br>
+● StoreCredit - Store credit available to the customer at the time of the transaction.<br>
 
-
+<br>
 Address the following questions.
 1. The Transactions table violates first, second, and third normal form. For each level of normalization, explain why the Transactions table is in violation. Be
 specific.
