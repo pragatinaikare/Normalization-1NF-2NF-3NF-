@@ -14,8 +14,8 @@ TransactionDate	CustomerID	OrderType	CustomerName	CustomerStatus	StoreCredit	Ite
 
 
 Let’s name this table Transactions. It has the composite primary key (TransactionDate+CustomerID), such that both fields are needed to uniquely identify each row. Here are some
-additional details about this retailer:
-● Each item is characterized by the type of item (e.g. Smartphone) and price (e.g. $800). These represent two different pieces of information about each item.
+additional details about this retailer:<br>
+● Each item is characterized by the type of item (e.g. Smartphone) and price (e.g. $800). These represent two different pieces of information about each item.<br>
 ● Customers making qualifying purchases are eligible for promotions. All promotions are completely based on order type, customer status, and items purchased. For
 example, GoldStatusFreeShipping promotion applies to all Gold status customers making online purchases; GoldStatus10Off promotion applies to all in-store purchases by
 Gold status customers; BronzeStatusFreeShipping applies to all online purchases made on by Bronze status customers purchasing 3 items.
