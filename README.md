@@ -3,7 +3,8 @@
 # Problem Statement  
 
 You are a data scientist responsible for structuring a relational database for a local retailer. This retailer has a physical store location as well as an online store. The following is a table containing information about recent transactions.
-
+<br>
+TABLE 
 TransactionDate	CustomerID	OrderType	CustomerName	CustomerStatus	StoreCredit	Item1	Item2	Item3	Promotion
 2023-09-01 10:00:00	1001	Online	Juan Johnson	Gold	$50	Laptop ($1200)	Smartphone($800)		GoldStatusFreeShipping
 2023-09-01 10:00:00	1002	In-store	Ahmed Al-Masri	Silver	$30	Gaming Console($500)			
@@ -32,14 +33,15 @@ Below is a data dictionary containing a description of each field.<br>
 ● StoreCredit - Store credit available to the customer at the time of the transaction.<br>
 
 <br>
-Address the following questions.
+Address the following questions.<br>
 1. The Transactions table violates first, second, and third normal form. For each level of normalization, explain why the Transactions table is in violation. Be
-specific.
+specific.<br>
 2. Create a collection of tables representing all of the data in Transactions that satisfies first, second, and third normal form and does not contain redundant or
 duplicated information across the collection of tables. All data in the Transactions table should be represented somewhere in your collection of tables, but you can
-remove any redundant information. Provide complete tables with all of the rows and columns filled in, not just the names of the columns.
+remove any redundant information. Provide complete tables with all of the rows and columns filled in, not just the names of the columns.<br>
 3. For each level of normalization, explain the specific steps you have taken to bring your new collection of tables into compliance with first, second, and third normal
-form. Be specific. State any assumptions made regarding the data needed to explain why your new collection of tables satisfies third normal form.
-4. Identify the primary keys for each table in your new collection of tables. Composite primary keys are acceptable.
+form. Be specific. State any assumptions made regarding the data needed to explain why your new collection of tables satisfies third normal form.<br>
+4. Identify the primary keys for each table in your new collection of tables. Composite primary keys are acceptable.<br>
 5. Identify the types of relationships (one-to-one, one-to-many, many-to-many) among the fields in your tables. Be specific about which field corresponds to the ‘one’
-vs. ‘many’. Use the `primary key’ and `foreign key’ terminology when appropriate.
+vs. ‘many’. Use the `primary key’ and `foreign key’ terminology when appropriate.<br>
+<br>
